@@ -1,0 +1,177 @@
+@font-face {
+  font-family: "Quicksand";
+  src: url(fonts/Quicksand-VariableFont_wght.ttf);
+}
+.upbody__hr:nth-of-type(3), .upbody__hr:nth-of-type(2), .upbody__hr:first-child {
+  border: 1px #D8E3FE solid;
+  padding-right: 1922px;
+  margin-left: -10px;
+}
+
+.upbody__img {
+  margin-top: 25px;
+  width: 1926px;
+  height: 780px;
+  margin-left: -11px;
+}
+
+.upbody__title {
+  width: 900px;
+  height: 200px;
+  margin-left: 500px;
+  margin-top: 50px;
+}
+.upbody__title h3 {
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #3D4F9F;
+  margin-top: -680px;
+  text-align: center;
+  margin-left: 8px;
+}
+.upbody__title h1 {
+  font-size: 72px;
+  font-weight: 300;
+  color: #3D4F9F;
+  text-align: center;
+  margin-top: 20px;
+}
+.upbody__title span {
+  font-weight: 600;
+}
+.upbody__title h2 {
+  font-size: 19px;
+  font-weight: 600;
+  line-height: 1cm;
+  color: #8D96BD;
+  width: 590px;
+  height: 78px;
+  text-align: center;
+  margin-top: -20px;
+  margin-left: 170px;
+}
+
+.upbody__logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 900px;
+  margin-left: 500px;
+  margin-top: 460px;
+}
+.upbody__logo img:first-child, .upbody__logo img:nth-child(5) {
+  width: 116px;
+  height: 29px;
+}
+.upbody__logo img:nth-child(2), .upbody__logo img:nth-child(4) {
+  width: 116px;
+  height: 24px;
+}
+.upbody__logo img:nth-child(3) {
+  width: 116px;
+  height: 22px;
+}
+
+.upbody__hr:first-child {
+  margin-top: 30px;
+}
+
+.upbody__hr:nth-of-type(2) {
+  margin-top: 65px;
+}
+
+.upbody__smartphone {
+  width: 45%;
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 1050px;
+}
+
+.upbody__bd {
+  padding-top: 250px;
+  background-color: #F5F8FF;
+  width: 1755px;
+  height: 200px;
+  margin-left: 160px;
+  margin-top: 525px;
+}
+
+.upbody__bd__txt {
+  width: 900px;
+  height: 170px;
+}
+.upbody__bd__txt p {
+  font-weight: 600;
+  color: #3D4F9F;
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-left: 300px;
+}
+.upbody__bd__txt h2 {
+  font-size: 48px;
+  margin-top: 40px;
+  text-transform: none;
+  font-weight: 500;
+  color: #3D4F9F;
+  margin-left: 298px;
+}
+.upbody__bd__txt span {
+  font-weight: 400;
+}
+
+.upbody__hr:nth-of-type(3) {
+  margin-top: -2px;
+}
+
+@media screen and (max-width: 1440px) {
+  .upbody__title {
+    width: 1200px;
+    margin-left: 350px;
+    margin-top: -50px;
+  }
+  .upbody__title h3 {
+    font-size: 20px;
+    margin-left: 40px;
+  }
+  .upbody__title h1 {
+    font-size: 95px;
+  }
+  .upbody__title h2 {
+    font-size: 22px;
+    margin-left: 325px;
+  }
+  .upbody__logo {
+    margin-top: 510px;
+    width: 1400px;
+    margin-left: 250px;
+  }
+  .upbody__logo img:first-child {
+    width: 189px;
+    height: 47px;
+  }
+  .upbody__logo img:nth-child(5) {
+    width: 172px;
+    height: 42px;
+    margin-top: 6px;
+  }
+  .upbody__logo img:nth-child(2), .upbody__logo img:nth-child(4) {
+    width: 187px;
+    height: 35px;
+    margin-top: 10px;
+  }
+  .upbody__logo img:nth-child(3) {
+    width: 185px;
+    height: 35px;
+    margin-top: 10px;
+  }
+  .upbody__bd__txt p {
+    font-size: 20px;
+  }
+  .upbody__bd__txt h2 {
+    font-size: 60px;
+  }
+  .upbody__smartphone {
+    width: 70%;
+    margin-left: 860px;
+  }
+}/*# sourceMappingURL=upbody.css.map */
